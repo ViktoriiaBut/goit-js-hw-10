@@ -9,8 +9,11 @@
   </head>
   <body>
     <main>
-      <input type="text" id="datetime-picker" />
-      <button type="button" data-start>Start</button>
+      <div class="container-timer">
+        <div class="container-input">
+      <input class="datetime-picker" type="text" id="datetime-picker" />
+      <button class="btn" type="button" data-start disabled>Start</button>
+        </div>
 
       <div class="timer">
         <div class="field">
@@ -30,6 +33,9 @@
           <span class="label">Seconds</span>
         </div>
       </div>
+
+    </div>
+
     </main>
     
     <script src="./js/1-timer.js" type="module"></script>
