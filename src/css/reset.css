@@ -1,35 +1,4 @@
 @import url('./reset.css');
-@import url('./snackbar.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
 
-form button {
-    background-color: #4e75ff;
-  }
-  
-  form button:hover {
-    background-color: #6c8cff;
-  }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
