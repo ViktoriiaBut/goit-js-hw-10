@@ -1,4 +1,6 @@
 /* Snackbar */
+
+
 body {
     font-family: Montserrat;
     font-size: 16px;
@@ -11,15 +13,23 @@ body {
     align-items: center;
     gap: 20px;
     width: 360px;
-    max-width: 100%;
+    margin-top: 36px;
+    margin-left: 156px;
+    background-color: #fff;
+    padding: 0;
+    justify-content: center;
   }
   
  input,fieldset,button {
-    width: 100%;
-    
+  max-width: 100%;
+  
  } 
+
 .delay {
   gap: 8px;
+  width: 355px;
+  height: 72px;
+  
 }
  label {
     display: block;
@@ -27,17 +37,26 @@ body {
     margin-bottom: 10px;
     color: #555;
     text-align: left;
-  }
+    width: 100%;
+      }
 
   input {
-    padding: 10px;
+    padding: 0;
     width: 100%;
+    height: 40px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
     outline: none;
+
+  }
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-left: 35px;
   }
 
+   
   input:hover {
     border-color: black;
   }
@@ -47,22 +66,24 @@ body {
   }
 
   fieldset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     stroke-width: 1px;
     stroke: #808080;
-    padding-left: 48px;
     margin: 0;
     padding: 0;
     width: 100%;
     text-align: left;
   }
 
- 
-  legend {
+   legend {
     font-size: 16px;
     color: #555;
-
+    margin-left: 28px;
   }
 
   button {
@@ -75,8 +96,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  
-  }
+    }
   
    button:hover {
     background-color: #6c8cff;
